@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "6"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2723,7 +2723,7 @@ entity
 	"id" "311"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/custom/lights/bts_light_fluorescent _01_128b_warm.vmf"
+	"file" "instances/custom/lights/bts_light_fluorescent _01_128b.vmf"
 	"origin" "0 64 -32"
 	editor
 	{
@@ -2738,7 +2738,7 @@ entity
 	"id" "314"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/custom/lights/bts_light_fluorescent _01_128b_warm.vmf"
+	"file" "instances/custom/lights/bts_light_fluorescent _01_128b.vmf"
 	"origin" "0 64 -160"
 	editor
 	{
@@ -2753,7 +2753,7 @@ entity
 	"id" "371"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/custom/lights/bts_light_fluorescent _01_128b_warm.vmf"
+	"file" "instances/custom/lights/bts_light_fluorescent _01_128b.vmf"
 	"origin" "0 320 -32"
 	editor
 	{
@@ -2768,7 +2768,7 @@ entity
 	"id" "374"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/custom/lights/bts_light_fluorescent _01_128b_warm.vmf"
+	"file" "instances/custom/lights/bts_light_fluorescent _01_128b.vmf"
 	"origin" "0 320 -160"
 	editor
 	{
