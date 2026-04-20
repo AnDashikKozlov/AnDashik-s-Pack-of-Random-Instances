@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "22"
+	"mapversion" "23"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "22"
+	"mapversion" "23"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -701,6 +701,16 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	group
+	{
+		"id" "2034"
+		editor
+		{
+			"color" "135 248 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
@@ -763,122 +773,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "204"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "1 -0 0"
-	"BasisOrigin" "0 -112 -224"
-	"BasisU" "0 1 0"
-	"BasisV" "-0 0 1"
-	"endu" "1"
-	"endv" "0"
-	"fademindist" "-1"
-	"material" "signage/bts_sign_number_02"
-	"sides" "33"
-	"startu" "0"
-	"startv" "1"
-	"uv0" "-16 -32 0"
-	"uv1" "-16 32 0"
-	"uv2" "16 32 0"
-	"uv3" "16 -32 0"
-	"origin" "0 -112 -224"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
-	}
-}
-entity
-{
-	"id" "210"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "1 -0 0"
-	"BasisOrigin" "0 -80 -224"
-	"BasisU" "0 1 0"
-	"BasisV" "-0 0 1"
-	"endu" "1"
-	"endv" "0"
-	"fademindist" "-1"
-	"material" "signage/bts_sign_number_00"
-	"sides" "33"
-	"startu" "0"
-	"startv" "1"
-	"uv0" "-16 -32 0"
-	"uv1" "-16 32 0"
-	"uv2" "16 32 0"
-	"uv3" "16 -32 0"
-	"origin" "0 -80 -224"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6500]"
-	}
-}
-entity
-{
-	"id" "221"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "1 -0 0"
-	"BasisOrigin" "0 -48 -224"
-	"BasisU" "0 1 0"
-	"BasisV" "-0 0 1"
-	"endu" "1"
-	"endv" "0"
-	"fademindist" "-1"
-	"material" "signage/bts_sign_number_03"
-	"sides" "33"
-	"startu" "0"
-	"startv" "1"
-	"uv0" "-16 -32 0"
-	"uv1" "-16 32 0"
-	"uv2" "16 32 0"
-	"uv3" "16 -32 0"
-	"origin" "0 -48 -224"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7000]"
-	}
-}
-entity
-{
-	"id" "227"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "1 -0 0"
-	"BasisOrigin" "0 -16 -224"
-	"BasisU" "0 1 0"
-	"BasisV" "-0 0 1"
-	"endu" "1"
-	"endv" "0"
-	"fademindist" "-1"
-	"material" "signage/bts_sign_number_09"
-	"sides" "33"
-	"startu" "0"
-	"startv" "1"
-	"uv0" "-16 -32 0"
-	"uv1" "-16 32 0"
-	"uv2" "16 32 0"
-	"uv3" "16 -32 0"
-	"origin" "0 -16 -224"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
 	}
 }
 entity
@@ -1905,6 +1799,126 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
+	"id" "204"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "0 -112 -224"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "signage/bts_sign_number_02"
+	"sides" "33"
+	"startu" "0"
+	"startv" "1"
+	"uv0" "-16 -32 0"
+	"uv1" "-16 32 0"
+	"uv2" "16 32 0"
+	"uv3" "16 -32 0"
+	"origin" "0 -112 -224"
+	editor
+	{
+		"color" "135 248 0"
+		"groupid" "2034"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "210"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "0 -80 -224"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "signage/bts_sign_number_00"
+	"sides" "33"
+	"startu" "0"
+	"startv" "1"
+	"uv0" "-16 -32 0"
+	"uv1" "-16 32 0"
+	"uv2" "16 32 0"
+	"uv3" "16 -32 0"
+	"origin" "0 -80 -224"
+	editor
+	{
+		"color" "135 248 0"
+		"groupid" "2034"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "221"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "0 -48 -224"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "signage/bts_sign_number_03"
+	"sides" "33"
+	"startu" "0"
+	"startv" "1"
+	"uv0" "-16 -32 0"
+	"uv1" "-16 32 0"
+	"uv2" "16 32 0"
+	"uv3" "16 -32 0"
+	"origin" "0 -48 -224"
+	editor
+	{
+		"color" "135 248 0"
+		"groupid" "2034"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "227"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "1 -0 0"
+	"BasisOrigin" "0 -16 -224"
+	"BasisU" "0 1 0"
+	"BasisV" "-0 0 1"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "signage/bts_sign_number_09"
+	"sides" "33"
+	"startu" "0"
+	"startv" "1"
+	"uv0" "-16 -32 0"
+	"uv1" "-16 32 0"
+	"uv2" "16 32 0"
+	"uv3" "16 -32 0"
+	"origin" "0 -16 -224"
+	editor
+	{
+		"color" "135 248 0"
+		"groupid" "2034"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
 	}
 }
 cameras

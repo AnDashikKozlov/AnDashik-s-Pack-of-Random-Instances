@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "32"
+	"mapversion" "34"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "32"
+	"mapversion" "34"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1114,7 +1114,7 @@ entity
 	"id" "2327"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/bts_module_aperture_logo"
+	"file" "instances/custom/bts/bts_module_aperture_logo.vmf"
 	"origin" "0 -192 0"
 	editor
 	{
