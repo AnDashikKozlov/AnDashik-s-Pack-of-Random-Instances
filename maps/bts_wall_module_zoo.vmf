@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "45"
+	"mapversion" "52"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "45"
+	"mapversion" "52"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1954,7 +1954,7 @@ entity
 	"classname" "func_instance"
 	"angles" "-0 0 0"
 	"file" "instances/custom/bts/bts_module_aperture_logo.vmf"
-	"origin" "960 -384 -192"
+	"origin" "960 -512 -192"
 	editor
 	{
 		"color" "220 30 220"
@@ -1969,7 +1969,7 @@ entity
 	"classname" "func_instance"
 	"angles" "-0 0 0"
 	"file" "instances/custom/bts/bts_metal_balcon01_rusty.vmf"
-	"origin" "960 -128 -256"
+	"origin" "960 -256 -256"
 	editor
 	{
 		"color" "220 30 220"
@@ -1984,7 +1984,7 @@ entity
 	"classname" "func_instance"
 	"angles" "-0 0 0"
 	"file" "instances/custom/bts/128_fuse_set01_light.vmf"
-	"origin" "960 128 -192"
+	"origin" "960 0 -192"
 	editor
 	{
 		"color" "220 30 220"
@@ -2003,13 +2003,13 @@ entity
 		side
 		{
 			"id" "210"
-			"plane" "(960 256 128) (960 256 -512) (960 -512 -512)"
+			"plane" "(960 1216 192) (960 1216 -512) (960 -512 -512)"
 			vertices_plus
 			{
-				"v" "960 256 128"
-				"v" "960 256 -512"
+				"v" "960 1216 192"
+				"v" "960 1216 -512"
 				"v" "960 -512 -512"
-				"v" "960 -512 128"
+				"v" "960 -512 192"
 			}
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[0 1 0 0] 2"
@@ -2021,13 +2021,13 @@ entity
 		side
 		{
 			"id" "209"
-			"plane" "(896 -512 128) (896 -512 -512) (896 256 -512)"
+			"plane" "(896 -512 192) (896 -512 -512) (896 1216 -512)"
 			vertices_plus
 			{
-				"v" "896 -512 128"
+				"v" "896 -512 192"
 				"v" "896 -512 -512"
-				"v" "896 256 -512"
-				"v" "896 256 128"
+				"v" "896 1216 -512"
+				"v" "896 1216 192"
 			}
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[0 1 0 0] 2"
@@ -2039,13 +2039,13 @@ entity
 		side
 		{
 			"id" "208"
-			"plane" "(960 256 128) (960 -512 128) (896 -512 128)"
+			"plane" "(960 1216 192) (960 -512 192) (896 -512 192)"
 			vertices_plus
 			{
-				"v" "960 256 128"
-				"v" "960 -512 128"
-				"v" "896 -512 128"
-				"v" "896 256 128"
+				"v" "960 1216 192"
+				"v" "960 -512 192"
+				"v" "896 -512 192"
+				"v" "896 1216 192"
 			}
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[1 0 0 0] 2"
@@ -2057,13 +2057,13 @@ entity
 		side
 		{
 			"id" "207"
-			"plane" "(896 256 -512) (896 -512 -512) (960 -512 -512)"
+			"plane" "(896 1216 -512) (896 -512 -512) (960 -512 -512)"
 			vertices_plus
 			{
-				"v" "896 256 -512"
+				"v" "896 1216 -512"
 				"v" "896 -512 -512"
 				"v" "960 -512 -512"
-				"v" "960 256 -512"
+				"v" "960 1216 -512"
 			}
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[1 0 0 0] 2"
@@ -2075,13 +2075,13 @@ entity
 		side
 		{
 			"id" "206"
-			"plane" "(960 256 -512) (960 256 128) (896 256 128)"
+			"plane" "(960 1216 -512) (960 1216 192) (896 1216 192)"
 			vertices_plus
 			{
-				"v" "960 256 -512"
-				"v" "960 256 128"
-				"v" "896 256 128"
-				"v" "896 256 -512"
+				"v" "960 1216 -512"
+				"v" "960 1216 192"
+				"v" "896 1216 192"
+				"v" "896 1216 -512"
 			}
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[1 0 0 0] 2"
@@ -2093,12 +2093,12 @@ entity
 		side
 		{
 			"id" "205"
-			"plane" "(896 -512 -512) (896 -512 128) (960 -512 128)"
+			"plane" "(896 -512 -512) (896 -512 192) (960 -512 192)"
 			vertices_plus
 			{
 				"v" "896 -512 -512"
-				"v" "896 -512 128"
-				"v" "960 -512 128"
+				"v" "896 -512 192"
+				"v" "960 -512 192"
 				"v" "960 -512 -512"
 			}
 			"material" "PROPS/PLASTICWALL003A"
@@ -2152,6 +2152,36 @@ entity
 	"target" "!player"
 	"targetname" "@arrival_teleport"
 	"origin" "1216 -1472 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3532"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/bts/bts_module_grate_structure.vmf"
+	"origin" "960 640 -320"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3599"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/bts/bts_module_grate_structure_damaged.vmf"
+	"origin" "960 640 0"
 	editor
 	{
 		"color" "220 30 220"
