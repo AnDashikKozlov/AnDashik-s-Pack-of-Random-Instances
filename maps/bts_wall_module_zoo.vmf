@@ -2154,7 +2154,7 @@ entity
 	"origin" "1216 -1472 0"
 	editor
 	{
-		"color" "156 217 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
