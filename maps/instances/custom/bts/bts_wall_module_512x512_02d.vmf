@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "36"
+	"mapversion" "37"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "36"
+	"mapversion" "37"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1729,7 +1729,7 @@ entity
 	"id" "2629"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/custom/bts/bts_metal_balcon01_rusty.vmf"
+	"file" "instances/custom/bts/bts_metal_balcony01_rusty.vmf"
 	"origin" "0 128 -128"
 	editor
 	{
@@ -1744,8 +1744,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[325.638 75.6774 58.4624]"
-		"look" "[318.334 75.6774 54.1088]"
+		"position" "[743.908 -35.8226 36.9412]"
+		"look" "[735.646 -35.5918 34.9418]"
 	}
 }
 cordons

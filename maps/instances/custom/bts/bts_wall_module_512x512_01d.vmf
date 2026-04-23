@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "26"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "26"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1101,7 +1101,7 @@ entity
 	"id" "1459"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/custom/bts/bts_metal_balcon01_rusty.vmf"
+	"file" "instances/custom/bts/bts_metal_balcony01_rusty.vmf"
 	"origin" "0 128 0"
 	editor
 	{
