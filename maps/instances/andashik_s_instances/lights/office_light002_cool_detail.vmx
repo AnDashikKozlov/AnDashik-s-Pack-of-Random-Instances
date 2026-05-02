@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "6"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,7 +68,7 @@ light_plus
 postprocess_plus
 {
 	"enable" "1"
-	"copied_from_controller" "0"
+	"copied_from_controller" "1"
 	"bloom_scale" "1"
 	"bloom_exponent" "2.5"
 	"bloom_saturation" "1"
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -105,6 +105,52 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "174"
+	"classname" "env_sprite"
+	"angles" "0 0 0"
+	"framerate" "10.0"
+	"glowproxysize" "3"
+	"hdrcolorscale" "0.7"
+	"model" "sprites/light_glow01.vmt"
+	"renderamt" "144"
+	"rendercolor" "189 198 198"
+	"rendermode" "5"
+	"scale" "1.25"
+	"origin" "32 0 -8"
+	editor
+	{
+		"color" "202 147 0"
+		"groupid" "190"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "164"
+	"classname" "env_sprite"
+	"angles" "0 0 0"
+	"framerate" "10.0"
+	"glowproxysize" "3"
+	"hdrcolorscale" "0.7"
+	"model" "sprites/light_glow01.vmt"
+	"renderamt" "144"
+	"rendercolor" "189 198 198"
+	"rendermode" "5"
+	"scale" "1.25"
+	"origin" "-32 0 -8"
+	editor
+	{
+		"color" "202 147 0"
+		"groupid" "190"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -177,52 +223,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2000 8000]"
-	}
-}
-entity
-{
-	"id" "174"
-	"classname" "env_sprite"
-	"angles" "0 0 0"
-	"framerate" "10.0"
-	"glowproxysize" "3"
-	"hdrcolorscale" "0.7"
-	"model" "sprites/light_glow02.vmt"
-	"renderamt" "144"
-	"rendercolor" "189 198 198"
-	"rendermode" "9"
-	"scale" "1.5"
-	"origin" "32 0 -8"
-	editor
-	{
-		"color" "202 147 0"
-		"groupid" "190"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "164"
-	"classname" "env_sprite"
-	"angles" "0 0 0"
-	"framerate" "10.0"
-	"glowproxysize" "3"
-	"hdrcolorscale" "0.7"
-	"model" "sprites/light_glow02.vmt"
-	"renderamt" "144"
-	"rendercolor" "189 198 198"
-	"rendermode" "9"
-	"scale" "1.5"
-	"origin" "-32 0 -8"
-	editor
-	{
-		"color" "202 147 0"
-		"groupid" "190"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 cameras
