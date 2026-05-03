@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5005"
-	"mapversion" "10"
+	"editorbuild" "8871"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,15 +15,85 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "2"
-	"bShow3DGrid" "0"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "1"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
+}
+bgimages_plus
+{
 }
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
 	solid
@@ -33,6 +103,13 @@ world
 		{
 			"id" "1"
 			"plane" "(-32 -64 64) (-28 -64 64) (-28 -64 -64)"
+			vertices_plus
+			{
+				"v" "-28 -64 64"
+				"v" "-28 -64 -64"
+				"v" "-32 -64 -64"
+				"v" "-32 -64 64"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -44,6 +121,13 @@ world
 		{
 			"id" "2"
 			"plane" "(-32 64 -64) (-28 64 -64) (-28 64 64)"
+			vertices_plus
+			{
+				"v" "-32 64 64"
+				"v" "-32 64 -64"
+				"v" "-28 64 -64"
+				"v" "-28 64 64"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -55,6 +139,13 @@ world
 		{
 			"id" "3"
 			"plane" "(-32 -64 64) (-32 -64 -64) (-32 64 -64)"
+			vertices_plus
+			{
+				"v" "-32 -64 64"
+				"v" "-32 -64 -64"
+				"v" "-32 64 -64"
+				"v" "-32 64 64"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 0 1 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -66,6 +157,13 @@ world
 		{
 			"id" "4"
 			"plane" "(-28 64 64) (-28 64 -64) (-28 -64 -64)"
+			vertices_plus
+			{
+				"v" "-28 64 64"
+				"v" "-28 64 -64"
+				"v" "-28 -64 -64"
+				"v" "-28 -64 64"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 0 1 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -77,6 +175,13 @@ world
 		{
 			"id" "5"
 			"plane" "(-28 -64 64) (-32 -64 64) (-32 64 64)"
+			vertices_plus
+			{
+				"v" "-28 -64 64"
+				"v" "-32 -64 64"
+				"v" "-32 64 64"
+				"v" "-28 64 64"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -88,6 +193,13 @@ world
 		{
 			"id" "6"
 			"plane" "(-28 64 -64) (-32 64 -64) (-32 -64 -64)"
+			vertices_plus
+			{
+				"v" "-28 64 -64"
+				"v" "-32 64 -64"
+				"v" "-32 -64 -64"
+				"v" "-28 -64 -64"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -116,13 +228,14 @@ entity
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
 	"_zero_percent_distance" "3000"
 	"angles" "0 0 180"
 	"pitch" "0"
 	"origin" "6 0 0"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -138,11 +251,13 @@ entity
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
 	"_zero_percent_distance" "139"
+	"angles" "0 0 0"
 	"origin" "26 0 0"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -153,7 +268,7 @@ entity
 	"id" "146"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/lights/light_panel_32x128_warm_med.vmf"
+	"file" "instances/custom/lights/light_panel_32x128_warm_med.vmf"
 	"fixup_style" "0"
 	"origin" "0 -48 0"
 	editor
@@ -169,7 +284,7 @@ entity
 	"id" "149"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/lights/light_panel_32x128_warm_med.vmf"
+	"file" "instances/custom/lights/light_panel_32x128_warm_med.vmf"
 	"fixup_style" "0"
 	"origin" "0 -16 0"
 	editor
@@ -185,7 +300,7 @@ entity
 	"id" "152"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/lights/light_panel_32x128_warm_med.vmf"
+	"file" "instances/custom/lights/light_panel_32x128_warm_med.vmf"
 	"fixup_style" "0"
 	"origin" "0 16 0"
 	editor
@@ -201,7 +316,7 @@ entity
 	"id" "155"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/lights/light_panel_32x128_warm_med.vmf"
+	"file" "instances/custom/lights/light_panel_32x128_warm_med.vmf"
 	"fixup_style" "0"
 	"origin" "0 48 0"
 	editor
@@ -217,8 +332,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[49.3238 -153.383 67.0964]"
-		"look" "[-38.2383 81.3632 -38.2228]"
+		"position" "[111.694 4.66765 112.004]"
+		"look" "[-96.383 11.731 -62.6929]"
 	}
 }
 cordons

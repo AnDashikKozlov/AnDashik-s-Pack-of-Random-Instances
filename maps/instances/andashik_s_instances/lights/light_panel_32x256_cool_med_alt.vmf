@@ -1146,7 +1146,7 @@ entity
 	"origin" "3 0 0"
 	editor
 	{
-		"color" "133 106 0"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -12268]"
@@ -1157,8 +1157,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[143.898 -52.3478 13.7531]"
-		"look" "[-299.484 102.041 -9.20944]"
+		"position" "[121.988 -92.1803 13.7531]"
+		"look" "[-259.29 180.772 -19.0367]"
 	}
 	camera
 	{

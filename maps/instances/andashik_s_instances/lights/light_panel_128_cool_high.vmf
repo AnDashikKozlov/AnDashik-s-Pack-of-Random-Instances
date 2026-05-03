@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "17"
+	"mapversion" "18"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "18"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -226,7 +226,7 @@ entity
 	"id" "802"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/custom/lights/light_panel_32x128_cool_med.vmf"
+	"file" "instances/andashik_s_instances/lights/light_panel_32x128_cool_med.vmf"
 	"fixup_style" "0"
 	"origin" "0 16 0"
 	editor
@@ -792,7 +792,7 @@ entity
 	"id" "799"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/custom/lights/light_panel_32x128_cool_med.vmf"
+	"file" "instances/andashik_s_instances/lights/light_panel_32x128_cool_med.vmf"
 	"fixup_style" "0"
 	"origin" "0 -16 0"
 	editor
@@ -808,7 +808,7 @@ entity
 	"id" "774"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/custom/lights/light_panel_32x128_cool_med.vmf"
+	"file" "instances/andashik_s_instances/lights/light_panel_32x128_cool_med.vmf"
 	"fixup_style" "0"
 	"origin" "0 -48 0"
 	editor
@@ -824,7 +824,7 @@ entity
 	"id" "805"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/custom/lights/light_panel_32x128_cool_med.vmf"
+	"file" "instances/andashik_s_instances/lights/light_panel_32x128_cool_med.vmf"
 	"fixup_style" "0"
 	"origin" "0 48 0"
 	editor
@@ -840,8 +840,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[106.361 -1.8653 111.306]"
-		"look" "[24.4712 -4.14793 38.5752]"
+		"position" "[116.677 -1.49505 122.679]"
+		"look" "[38.973 -3.661 45.4889]"
 	}
 }
 cordons

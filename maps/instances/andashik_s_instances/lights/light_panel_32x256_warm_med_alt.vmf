@@ -1264,7 +1264,7 @@ entity
 	"origin" "3 0 0"
 	editor
 	{
-		"color" "133 106 0"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -12268]"
@@ -1275,8 +1275,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[78.422 -62.6346 47.4362]"
-		"look" "[-361.971 94.1812 -1.69831]"
+		"position" "[271.551 -130.12 104.174]"
+		"look" "[-155.161 18.4759 -25.3912]"
 	}
 }
 cordons
